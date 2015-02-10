@@ -12,12 +12,8 @@ editors/emacs
 japanese/mozc-el
 editors/vim-lite
 print/texlive-full
-#japanese/teTeX
-#print/dvipdfmx
 print/yatex
-#print/latex-beamer
 textproc/prosper
-#japanese/dvi2tty
 #
 net/samba36
 www/apache24
@@ -33,6 +29,7 @@ security/php5-openssl
 archivers/php5-zip
 devel/php-xdebug
 japanese/php_doc
+lang/php-mode.el
 www/mediawiki122
 lang/ocaml
 #
