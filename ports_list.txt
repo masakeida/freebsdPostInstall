@@ -55,6 +55,12 @@ benchmarks/unixbench
 #
 java/openjdk6
 #
+math/R
+#
+math/py-numpy
+science/py-scipy
+math/py-matplotlib
+#
 x11/mate
 x11/slim
 x11-themes/slim-themes
@@ -75,10 +81,7 @@ www/nspluginwrapper
 japanese/libreoffice
 graphics/gimp
 multimedia/vlc
-net/grive
 emulators/virtualbox-ose
 #
 java/eclipse
 java/eclipse-cdt
-#
-math/R
