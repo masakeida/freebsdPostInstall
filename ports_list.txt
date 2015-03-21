@@ -61,6 +61,7 @@ math/py-numpy
 science/py-scipy
 math/py-matplotlib
 math/py-pandas
+textproc/nltk
 #
 x11/mate
 x11/slim
