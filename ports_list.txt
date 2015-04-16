@@ -7,6 +7,8 @@ japanese/less
 japanese/nkf
 japanese/kterm
 japanese/a2ps
+japanese/mecab
+japanese/mecab-ipadic
 #
 editors/emacs
 japanese/mozc-el
@@ -62,6 +64,7 @@ science/py-scipy
 math/py-matplotlib
 math/py-pandas
 textproc/nltk
+japanese/py-mecab
 #
 x11/mate
 x11/slim
