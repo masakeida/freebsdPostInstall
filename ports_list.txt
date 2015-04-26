@@ -32,7 +32,7 @@ archivers/php5-zip
 devel/php-xdebug
 japanese/php_doc
 lang/php-mode.el
-www/mediawiki122
+www/mediawiki124
 lang/ocaml
 #
 lang/gcc
@@ -63,7 +63,7 @@ math/py-numpy
 science/py-scipy
 math/py-matplotlib
 math/py-pandas
-textproc/nltk
+textproc/py-nltk
 japanese/py-mecab
 #
 x11/mate
