@@ -89,4 +89,4 @@ multimedia/vlc
 emulators/virtualbox-ose
 #
 java/eclipse
-java/eclipse-cdt
+#java/eclipse-cdt
