@@ -16,6 +16,7 @@ editors/vim-lite
 print/texlive-full
 print/yatex
 textproc/prosper
+graphics/xpdf
 #
 net/samba36
 www/apache24
