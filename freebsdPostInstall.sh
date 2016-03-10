@@ -176,21 +176,21 @@ EndSection
 EOF
 
 # /usr/local/etc/hal/fdi/policy/10-x11-kbd.fdi for keyboard settings
-cat >> /usr/local/etc/hal/fdi/policy/10-x11-kbd.fdi <<EOF
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<deviceinfo version="0.2">
-  <device>
-    <match key="info.capabilities" contains="input.keyboard">
-      <match key="info.udi" string="/org/freedesktop/Hal/devices/atkbd_0">
-        <merge key="input.x11_options.XkbRules" type="string">xorg</merge>
-        <merge key="input.x11_options.XkbModel" type="string">jp106</merge>
-        <merge key="input.x11_options.XkbLayout" type="string">jp</merge>
-        <merge key="input.x11_options.XkbOptions" type="string">ctrl:nocaps</merge>
-      </match>
-    </match>
-  </device>
-</deviceinfo>
-EOF
+#cat >> /usr/local/etc/hal/fdi/policy/10-x11-kbd.fdi <<EOF
+#<?xml version="1.0" encoding="ISO-8859-1"?>
+#<deviceinfo version="0.2">
+#  <device>
+#    <match key="info.capabilities" contains="input.keyboard">
+#      <match key="info.udi" string="/org/freedesktop/Hal/devices/atkbd_0">
+#        <merge key="input.x11_options.XkbRules" type="string">xorg</merge>
+#        <merge key="input.x11_options.XkbModel" type="string">jp106</merge>
+#        <merge key="input.x11_options.XkbLayout" type="string">jp</merge>
+#        <merge key="input.x11_options.XkbOptions" type="string">ctrl:nocaps</merge>
+#      </match>
+#    </match>
+#  </device>
+#</deviceinfo>
+#EOF
 
 # /usr/local/etc/PolicyKit/PolicyKit.conf for shutdown
 if [ -n "$NUSER" ]; then
