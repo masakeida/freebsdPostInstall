@@ -15,7 +15,7 @@ japanese/mozc-el
 editors/vim-lite
 print/texlive-full
 print/yatex
-textproc/prosper
+#textproc/prosper
 graphics/xpdf
 #
 net/samba36
