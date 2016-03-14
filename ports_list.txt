@@ -1,46 +1,13 @@
 #
+# Common Application
+#
+##
+## Xorg
+##
 x11/xorg
-#
-japanese/ibus-mozc
-japanese/jls
-japanese/less
-japanese/nkf
-japanese/kterm
-japanese/a2ps
-japanese/mecab
-japanese/mecab-ipadic
-#
-editors/emacs
-japanese/mozc-el
-editors/vim-lite
-print/texlive-full
-print/yatex
-#textproc/prosper
-graphics/xpdf
-#
-net/samba36
-www/apache24
-databases/mysql56-server
-#
-lang/php56
-www/mod_php56
-lang/php56-extensions
-ftp/php56-curl
-converters/php56-mbstring
-databases/php56-mysql
-security/php56-openssl
-archivers/php56-zip
-devel/php-xdebug
-japanese/php_doc
-lang/php-mode.el
-www/mediawiki124
-lang/ocaml
-#
-lang/gcc
-devel/gmake
-#
-lang/go
-#
+##
+## System
+##
 security/sudo
 sysutils/screen
 sysutils/tmux
@@ -52,42 +19,128 @@ devel/llvm35
 devel/ctags
 devel/git
 devel/open-usp-tukubai
-www/node
-www/npm
 benchmarks/unixbench
-#
+graphics/xpdf
+emulators/linux_base-c6
+##
+## Text Edit
+##
+editors/emacs
+japanese/mozc-el
+editors/vim-lite
+##
+## Japanese
+##
+japanese/ibus-mozc
+japanese/jls
+japanese/less
+japanese/nkf
+japanese/kterm
+japanese/a2ps
+japanese/mecab
+japanese/mecab-ipadic
+##
+## TeX
+##
+print/texlive-full
+print/yatex
+##
+## PHP
+##
+lang/php56
+lang/php56-extensions
+ftp/php56-curl
+converters/php56-mbstring
+databases/php56-mysql
+security/php56-openssl
+archivers/php56-zip
+devel/php-xdebug
+japanese/php_doc
+lang/php-mode.el
+www/mediawiki124
+##
+## Ocaml
+##
+lang/ocaml
+##
+## GCC
+##
+lang/gcc
+devel/gmake
+##
+## Go
+##
+lang/go
+##
+## Java
+##
 java/openjdk6
-#
+##
+## R
+##
 math/R
-#
+##
+## Python
+##
 math/py-numpy
 science/py-scipy
 math/py-matplotlib
 math/py-pandas
 textproc/py-nltk
 japanese/py-mecab
+##
+## Javascript Node.js
+##
+www/node
+www/npm
 #
+# Server Application
+#
+##
+## Server Suite
+##
+net/samba36
+www/apache24
+www/mod_php56
+databases/mysql56-server
+#
+# Desktop Application
+#
+##
+## Mate Desktop Environment
+##
 x11/mate
 x11/slim
 x11-themes/slim-themes
 japanese/font-std
 japanese/font-vlgothic
 japanese/font-takao
-#
+##
+## Web Browser
+##
+www/chromium
+java/icedtea-web
 www/firefox
 www/firefox-i18n
 mail/thunderbird
 mail/thunderbird-i18n
 mail/thunderbird-dictionaries
-www/chromium
-java/icedtea-web
-emulators/linux_base-c6
 www/nspluginwrapper
-#
+##
+## Office Suite
+##
 japanese/libreoffice
+##
+## Media
+##
 graphics/gimp
 multimedia/vlc
+##
+## Virtual Machine
+##
 emulators/virtualbox-ose
-#
+##
+## Eclipse
+##
 java/eclipse
 #java/eclipse-cdt
