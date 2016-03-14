@@ -45,6 +45,10 @@ japanese/mecab-ipadic
 print/texlive-full
 print/yatex
 ##
+## Java
+##
+java/openjdk6
+##
 ## PHP
 ##
 lang/php56
@@ -57,28 +61,6 @@ archivers/php56-zip
 devel/php-xdebug
 japanese/php_doc
 lang/php-mode.el
-www/mediawiki124
-##
-## Ocaml
-##
-lang/ocaml
-##
-## GCC
-##
-lang/gcc
-devel/gmake
-##
-## Go
-##
-lang/go
-##
-## Java
-##
-java/openjdk6
-##
-## R
-##
-math/R
 ##
 ## Python
 ##
@@ -88,6 +70,23 @@ math/py-matplotlib
 math/py-pandas
 textproc/py-nltk
 japanese/py-mecab
+##
+## GCC
+##
+lang/gcc
+devel/gmake
+##
+## R
+##
+math/R
+##
+## Ocaml
+##
+lang/ocaml
+##
+## Go
+##
+lang/go
 ##
 ## Javascript Node.js
 ##
@@ -103,6 +102,7 @@ net/samba36
 www/apache24
 www/mod_php56
 databases/mysql56-server
+www/mediawiki124
 #
 # Desktop Application
 #
