@@ -15,7 +15,7 @@ EOF
 
 version() {
     cat <<EOF
-$(basename ${0}): 20150124
+$(basename ${0}): 20160315
 EOF
 }
 
