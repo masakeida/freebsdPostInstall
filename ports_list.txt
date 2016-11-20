@@ -105,7 +105,7 @@ net/samba36
 www/apache24
 www/mod_php56
 databases/mysql56-server
-www/mediawiki124
+www/mediawiki127
 #
 # Desktop Application
 #
