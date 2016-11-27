@@ -60,6 +60,7 @@ lang/php56-extensions
 ftp/php56-curl
 converters/php56-mbstring
 databases/php56-mysql
+databases/php56-pdo_mysql
 security/php56-openssl
 archivers/php56-zip
 devel/php-xdebug
