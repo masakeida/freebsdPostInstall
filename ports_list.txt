@@ -51,7 +51,7 @@ print/yatex
 ##
 ## Java
 ##
-java/openjdk6
+java/openjdk8
 ##
 ## PHP
 ##
@@ -103,7 +103,7 @@ www/npm
 ##
 ## Server Suite
 ##
-net/samba36
+net/samba44
 www/apache24
 www/mod_php56
 databases/mysql56-server
