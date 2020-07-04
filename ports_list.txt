@@ -150,7 +150,3 @@ multimedia/vlc
 ##
 java/eclipse
 #java/eclipse-cdt
-#
-x11-drivers/xf86-video-vmware
-x11-drivers/xf86-input-vmmouse
-emulators/open-vm-tools
