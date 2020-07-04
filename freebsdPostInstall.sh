@@ -127,26 +127,6 @@ if [ ${VMWARE} = "YES" ]; then
     rm /etc/rc.conf.local.ORG
 fi
 
-# /etc/X11/xorg.conf.d/input.conf
-mkdir /etc/X11/xorg.conf.d
-cat >> /etc/X11/xorg.conf.d/input.conf <<EOF
-Section "InputClass"
-	Identifier		"Keyboard Defaults"
-	Driver			"keyboard"
-	MatchIsKeyboard		"on"
-	Option			"XkbRules" "xorg"
-	Option			"XkbModel" "jp106"
-	Option			"XkbLayout" "jp"
-	Option			"XkbOptions" "ctrl:nocaps"
-EndSection
-
-Section "InputClass"
-	Identifier		"Mouse Defaults"
-	Driver			"vmmouse"
-	MatchIsPointer		"on"
-EndSection
-EOF
-
 # adduser if define $NUSER
 if [ -n "$NUSER" ]; then
     if [ -z "$NNAME" ]; then

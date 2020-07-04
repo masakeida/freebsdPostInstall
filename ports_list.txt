@@ -1,5 +1,5 @@
 #
-# ports_list.txt (2016/03/15)
+# ports_list.txt (2020/07/03)
 ##
 #
 # Common Application
@@ -19,19 +19,19 @@ ports-mgmt/portmaster
 net/rsync
 net/rclone
 ftp/wget
-devel/llvm35
+devel/llvm
 devel/ctags
 devel/git
-devel/open-usp-tukubai
+#devel/open-usp-tukubai
 benchmarks/unixbench
 graphics/xpdf
-emulators/linux_base-c6
+emulators/linux_base-c7
 ##
 ## Text Edit
 ##
 editors/emacs
 japanese/mozc-el
-editors/vim-lite
+editors/vim
 ##
 ## Japanese
 ##
@@ -51,20 +51,20 @@ print/yatex
 ##
 ## Java
 ##
-java/openjdk8
+java/openjdk14
 ##
 ## PHP
 ##
-lang/php56
-lang/php56-extensions
-ftp/php56-curl
-converters/php56-mbstring
-databases/php56-mysql
-databases/php56-pdo_mysql
-security/php56-openssl
-archivers/php56-zip
-devel/php-xdebug
-japanese/php_doc
+lang/php74
+lang/php74-extensions
+ftp/php74-curl
+converters/php74-mbstring
+databases/php74-mysqli
+databases/php74-pdo_mysql
+security/php74-openssl
+archivers/php74-zip
+#devel/php-xdebug
+#japanese/php_doc
 lang/php-mode.el
 ##
 ## Python
@@ -75,6 +75,7 @@ math/py-matplotlib
 math/py-pandas
 textproc/py-nltk
 japanese/py-mecab
+devel/py-pip
 ##
 ## GCC
 ##
@@ -103,11 +104,11 @@ www/npm
 ##
 ## Server Suite
 ##
-net/samba44
+net/samba410
 www/apache24
-www/mod_php56
-databases/mysql56-server
-www/mediawiki127
+www/mod_php74
+databases/mysql57-server
+www/mediawiki133
 #
 # Desktop Application
 #
@@ -125,10 +126,10 @@ japanese/font-takao
 ##
 www/chromium
 java/icedtea-web
-www/firefox
-www/firefox-i18n
+www/firefox-esr
+#www/firefox-i18n
 mail/thunderbird
-mail/thunderbird-i18n
+#mail/thunderbird-i18n
 mail/thunderbird-dictionaries
 www/nspluginwrapper
 ##
@@ -143,9 +144,13 @@ multimedia/vlc
 ##
 ## Virtual Machine
 ##
-emulators/virtualbox-ose
+#emulators/virtualbox-ose
 ##
 ## Eclipse
 ##
 java/eclipse
 #java/eclipse-cdt
+#
+x11-drivers/xf86-video-vmware
+x11-drivers/xf86-input-vmmouse
+emulators/open-vm-tools
