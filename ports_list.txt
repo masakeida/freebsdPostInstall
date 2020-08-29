@@ -25,7 +25,7 @@ devel/git
 #devel/open-usp-tukubai
 benchmarks/unixbench
 graphics/xpdf
-emulators/linux_base-c7
+#emulators/linux_base-c7
 ##
 ## Text Edit
 ##
@@ -131,7 +131,7 @@ www/firefox-esr
 mail/thunderbird
 #mail/thunderbird-i18n
 mail/thunderbird-dictionaries
-www/nspluginwrapper
+#www/nspluginwrapper
 ##
 ## Office Suite
 ##

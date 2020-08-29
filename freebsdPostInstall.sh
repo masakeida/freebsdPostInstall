@@ -95,7 +95,7 @@ EOF
 cp /etc/fstab /etc/fstab.ORG
 cat >> /etc/fstab <<EOF
 proc /proc procfs rw 0 0
-linprocfs /compat/linux/proc linprocfs rw 0 0
+#linprocfs /compat/linux/proc linprocfs rw 0 0
 EOF
 
 # pkg
