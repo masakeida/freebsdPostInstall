@@ -88,7 +88,7 @@ sendmail_msp_queue_enable="NO"
 # other settings
 snddetect_enable="YES"
 mixer_enable="YES"
-linux_enable="YES"
+#linux_enable="YES"
 EOF
 
 # /etc/fstab update
