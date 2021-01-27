@@ -1,5 +1,5 @@
 #
-# ports_list.txt (2020/07/03)
+# ports_list.txt (2021/01/27)
 ##
 #
 # Common Application
@@ -24,7 +24,6 @@ devel/ctags
 devel/git
 #devel/open-usp-tukubai
 benchmarks/unixbench
-graphics/xpdf
 #emulators/linux_base-c7
 ##
 ## Text Edit
@@ -43,6 +42,7 @@ japanese/kterm
 japanese/a2ps
 japanese/mecab
 japanese/mecab-ipadic
+japanese/xpdf
 ##
 ## TeX
 ##
@@ -74,7 +74,7 @@ science/py-scipy
 math/py-matplotlib
 math/py-pandas
 textproc/py-nltk
-japanese/py-mecab
+#japanese/py-mecab
 devel/py-pip
 ##
 ## GCC
@@ -104,11 +104,11 @@ www/npm
 ##
 ## Server Suite
 ##
-net/samba410
+net/samba413
 www/apache24
 www/mod_php74
 databases/mysql57-server
-www/mediawiki133
+www/mediawiki135
 #
 # Desktop Application
 #
