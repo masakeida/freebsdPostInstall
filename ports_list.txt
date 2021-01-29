@@ -1,5 +1,5 @@
 #
-# ports_list.txt (2021/01/27)
+# ports_list.txt (2021/01/29)
 ##
 #
 # Common Application
@@ -98,6 +98,10 @@ lang/go
 ##
 www/node
 www/npm
+##
+## JSON
+##
+textproc/jq
 #
 # Server Application
 #
