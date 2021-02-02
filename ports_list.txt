@@ -1,5 +1,5 @@
 #
-# ports_list.txt (2021/01/29)
+# ports_list.txt (2021/02/02)
 ##
 #
 # Common Application
@@ -22,9 +22,7 @@ ftp/wget
 devel/llvm
 devel/ctags
 devel/git
-#devel/open-usp-tukubai
 benchmarks/unixbench
-#emulators/linux_base-c7
 ##
 ## Text Edit
 ##
@@ -55,16 +53,15 @@ java/openjdk14
 ##
 ## PHP
 ##
-lang/php74
-lang/php74-extensions
-ftp/php74-curl
-converters/php74-mbstring
-databases/php74-mysqli
-databases/php74-pdo_mysql
-security/php74-openssl
-archivers/php74-zip
-#devel/php-xdebug
-#japanese/php_doc
+lang/php73
+lang/php73-extensions
+ftp/php73-curl
+converters/php73-mbstring
+databases/php73-mysqli
+databases/php73-pdo_mysql
+security/php73-openssl
+archivers/php73-zip
+devel/pecl-xdebug
 lang/php-mode.el
 ##
 ## Python
@@ -110,7 +107,7 @@ textproc/jq
 ##
 net/samba413
 www/apache24
-www/mod_php74
+www/mod_php73
 databases/mysql57-server
 www/mediawiki135
 #
@@ -131,11 +128,8 @@ japanese/font-takao
 www/chromium
 java/icedtea-web
 www/firefox-esr
-#www/firefox-i18n
 mail/thunderbird
-#mail/thunderbird-i18n
 mail/thunderbird-dictionaries
-#www/nspluginwrapper
 ##
 ## Office Suite
 ##
@@ -153,4 +147,3 @@ multimedia/vlc
 ## Eclipse
 ##
 java/eclipse
-#java/eclipse-cdt
