@@ -71,7 +71,6 @@ science/py-scipy
 math/py-matplotlib
 math/py-pandas
 textproc/py-nltk
-#japanese/py-mecab
 devel/py-pip
 ##
 ## GCC
