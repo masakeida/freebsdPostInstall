@@ -95,6 +95,10 @@ lang/go
 www/node
 www/npm
 ##
+## Rust
+##
+lang/rust
+##
 ## JSON
 ##
 textproc/jq
