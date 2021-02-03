@@ -1,16 +1,25 @@
 # freebsdPostInstall
 
-    Usage
+## Usage
+
     # ./freebsdPostInstall.sh
     or
     # ./freebsdPostInstall.sh -u username -n "Real Name" -p password [-w]
 
+    Usage:
+        freebsdPostInstall.sh [<options>]
+    Options:
+        --version, -v     print freebsdPostInstall.sh version
+        --user, -u        set new user
+        --gecos, -n       set new user's name for GECOS field
+        --passwd, -p      set new user's password
+        --vmware, -w      configure for vmware
 
-# このスクリプトは
+## このスクリプトは
 
 FreeBSD をインストールした後、設定を自動的に行います。
 
-## 具体的には
+### 具体的には
 
 1. freebsd-update で、システムを最新にします。
 2. portsnap で、portsを最新にします。
