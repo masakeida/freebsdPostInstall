@@ -81,6 +81,7 @@ devel/gmake
 ## R
 ##
 math/R
+math/gsl
 ##
 ## Ocaml
 ##
