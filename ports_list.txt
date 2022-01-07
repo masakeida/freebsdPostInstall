@@ -22,6 +22,8 @@ ftp/wget
 devel/llvm
 devel/ctags
 devel/git
+devel/gdb
+textproc/source-highlight
 benchmarks/unixbench
 ##
 ## Text Edit
@@ -71,6 +73,7 @@ science/py-scipy
 math/py-matplotlib
 math/py-pandas
 textproc/py-nltk
+#textproc/py-gensim
 devel/py-pip
 ##
 ## GCC
