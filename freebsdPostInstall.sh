@@ -15,7 +15,7 @@ EOF
 
 version() {
     cat <<EOF
-$(basename ${0}): 20210201
+$(basename ${0}): 20220111
 EOF
 }
 
@@ -155,8 +155,9 @@ if [ -n "$NUSER" ]; then
     chown -R ${NUSER}:${NUSER} /home/${NUSER}/.config
 
     # /usr/local/etc/PolicyKit/PolicyKit.conf for shutdown
-    cp /usr/local/etc/PolicyKit/PolicyKit.conf /usr/local/etc/PolicyKit/PolicyKit.conf.ORG
-    sed -e "s/root/root|${NUSER}/" /usr/local/etc/PolicyKit/PolicyKit.conf.ORG > /usr/local/etc/PolicyKit/PolicyKit.conf
+    # obvious obsolete. I should know what to do it.
+    #cp /usr/local/etc/PolicyKit/PolicyKit.conf /usr/local/etc/PolicyKit/PolicyKit.conf.ORG
+    #sed -e "s/root/root|${NUSER}/" /usr/local/etc/PolicyKit/PolicyKit.conf.ORG > /usr/local/etc/PolicyKit/PolicyKit.conf
 fi
 
 # /usr/local/etc/fonts/local.conf for fontconfig settings
