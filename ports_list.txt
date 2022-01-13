@@ -1,5 +1,5 @@
 #
-# ports_list.txt (2022/01/07)
+# ports_list.txt (2022/01/13)
 ##
 #
 # Common Application
@@ -112,7 +112,7 @@ textproc/jq
 ##
 ## Server Suite
 ##
-net/samba413
+net/samba412
 www/apache24
 www/mod_php73
 databases/mysql57-server
