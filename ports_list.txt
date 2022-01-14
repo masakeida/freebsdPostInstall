@@ -1,5 +1,5 @@
 #
-# ports_list.txt (2022/01/13)
+# ports_list.txt (2022/01/14)
 ##
 #
 # Common Application
@@ -115,6 +115,7 @@ textproc/jq
 net/samba412
 www/apache24
 www/mod_php73
+www/nginx
 databases/mysql57-server
 www/mediawiki135
 #
