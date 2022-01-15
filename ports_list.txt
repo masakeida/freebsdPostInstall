@@ -1,5 +1,5 @@
 #
-# ports_list.txt (2022/01/14)
+# ports_list.txt (2022/01/15)
 ##
 #
 # Common Application
@@ -43,6 +43,7 @@ japanese/a2ps
 japanese/mecab
 japanese/mecab-ipadic
 japanese/xpdf
+graphics/poppler
 ##
 ## TeX
 ##
