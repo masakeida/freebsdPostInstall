@@ -1,5 +1,5 @@
 #
-# ports_list.txt (2022/01/15)
+# ports_list.txt (2022/01/16)
 ##
 #
 # Common Application
@@ -23,6 +23,7 @@ devel/llvm
 devel/ctags
 devel/git
 devel/gdb
+devel/cmake
 textproc/source-highlight
 benchmarks/unixbench
 ##
