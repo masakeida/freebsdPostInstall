@@ -24,6 +24,7 @@ devel/ctags
 devel/git
 devel/gdb
 devel/cmake
+net/openmpi
 textproc/source-highlight
 benchmarks/unixbench
 ##
