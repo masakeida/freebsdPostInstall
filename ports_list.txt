@@ -24,7 +24,6 @@ devel/ctags
 devel/git
 devel/gdb
 devel/cmake
-net/openmpi
 textproc/source-highlight
 benchmarks/unixbench
 ##
@@ -83,6 +82,11 @@ devel/py-pip
 ##
 lang/gcc
 devel/gmake
+##
+## Other Library
+##
+devel/boost-all
+net/openmpi
 ##
 ## R
 ##
