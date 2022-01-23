@@ -14,8 +14,8 @@ x11/xorg
 security/sudo
 sysutils/screen
 sysutils/tmux
-ports-mgmt/portupgrade
-ports-mgmt/portmaster
+#ports-mgmt/portupgrade
+#ports-mgmt/portmaster
 net/rsync
 net/rclone
 ftp/wget
