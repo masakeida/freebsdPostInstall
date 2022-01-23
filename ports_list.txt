@@ -75,7 +75,8 @@ science/py-scipy
 math/py-matplotlib
 math/py-pandas
 textproc/py-nltk
-#textproc/py-gensim
+textproc/py-gensim
+devel/py-python-Levenshtein
 devel/py-pip
 ##
 ## GCC
