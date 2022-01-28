@@ -1,5 +1,5 @@
 #
-# ports_list.txt (2022/01/16)
+# ports_list.txt (2022/01/28)
 ##
 #
 # Common Application
@@ -54,6 +54,8 @@ print/yatex
 ## Java
 ##
 java/openjdk14
+devel/maven33
+java/cryptix-jce
 ##
 ## PHP
 ##
