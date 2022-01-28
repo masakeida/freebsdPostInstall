@@ -54,7 +54,7 @@ print/yatex
 ## Java
 ##
 java/openjdk14
-devel/maven33
+devel/maven
 java/cryptix-jce
 ##
 ## PHP
