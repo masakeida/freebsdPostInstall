@@ -83,7 +83,9 @@ devel/py-pip
 ##
 ## Ruby
 ##
+lang/ruby27
 lang/ruby31
+devel/rubygem-rake
 ##
 ## GCC
 ##
