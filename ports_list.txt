@@ -86,6 +86,7 @@ devel/py-pip
 lang/ruby27
 lang/ruby31
 devel/rubygem-rake
+devel/rubygem-minitest
 ##
 ## GCC
 ##
