@@ -1,5 +1,5 @@
 #
-# ports_list.txt (2022/01/30)
+# ports_list.txt (2022/02/21)
 ##
 #
 # Common Application
@@ -26,6 +26,7 @@ devel/gdb
 devel/cmake
 textproc/source-highlight
 benchmarks/unixbench
+games/nethack36
 ##
 ## Text Edit
 ##
