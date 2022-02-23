@@ -26,7 +26,7 @@ devel/gdb
 devel/cmake
 textproc/source-highlight
 benchmarks/unixbench
-games/nethack36
+japanese/nethack34
 ##
 ## Text Edit
 ##
