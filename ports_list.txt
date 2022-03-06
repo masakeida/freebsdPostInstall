@@ -1,5 +1,5 @@
 #
-# ports_list.txt (2022/02/21)
+# ports_list.txt (2022/03/06)
 ##
 #
 # Common Application
@@ -60,14 +60,14 @@ java/cryptix-jce
 ##
 ## PHP
 ##
-lang/php73
-lang/php73-extensions
-ftp/php73-curl
-converters/php73-mbstring
-databases/php73-mysqli
-databases/php73-pdo_mysql
-security/php73-openssl
-archivers/php73-zip
+lang/php74
+lang/php74-extensions
+ftp/php74-curl
+converters/php74-mbstring
+databases/php74-mysqli
+databases/php74-pdo_mysql
+security/php74-openssl
+archivers/php74-zip
 devel/pecl-xdebug
 lang/php-mode.el
 ##
@@ -132,10 +132,10 @@ textproc/jq
 ##
 net/samba412
 www/apache24
-www/mod_php73
+www/mod_php74
 www/nginx
 databases/mysql57-server
-www/mediawiki135
+www/mediawiki137
 #
 # Desktop Application
 #
