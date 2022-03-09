@@ -1,5 +1,5 @@
 #
-# ports_list.txt (2022/03/06)
+# ports_list.txt (2022/03/09)
 ##
 #
 # Common Application
@@ -80,6 +80,7 @@ math/py-pandas
 textproc/py-nltk
 textproc/py-gensim
 devel/py-python-Levenshtein
+misc/py-tqdm
 devel/py-pip
 ##
 ## Ruby
