@@ -80,6 +80,7 @@ math/py-pandas
 textproc/py-nltk
 textproc/py-gensim
 devel/py-python-Levenshtein
+textproc/py-wordcloud
 misc/py-tqdm
 devel/py-pip
 ##
