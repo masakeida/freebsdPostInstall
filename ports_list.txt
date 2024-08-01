@@ -1,5 +1,5 @@
 #
-# ports_list.txt (2022/03/09)
+# ports_list.txt (2024/07/31)
 ##
 #
 # Common Application
@@ -54,20 +54,20 @@ print/yatex
 ##
 ## Java
 ##
-java/openjdk14
+java/openjdk11
 devel/maven
-java/cryptix-jce
+#java/cryptix-jce
 ##
 ## PHP
 ##
-lang/php74
-lang/php74-extensions
-ftp/php74-curl
-converters/php74-mbstring
-databases/php74-mysqli
-databases/php74-pdo_mysql
-security/php74-openssl
-archivers/php74-zip
+lang/php82
+lang/php82-extensions
+ftp/php82-curl
+converters/php82-mbstring
+databases/php82-mysqli
+databases/php82-pdo_mysql
+#security/php82-openssl
+archivers/php82-zip
 devel/pecl-xdebug
 lang/php-mode.el
 ##
@@ -79,15 +79,15 @@ math/py-matplotlib
 math/py-pandas
 textproc/py-nltk
 textproc/py-gensim
-devel/py-python-Levenshtein
+#devel/py-python-Levenshtein
 textproc/py-wordcloud
 misc/py-tqdm
 devel/py-pip
 ##
 ## Ruby
 ##
-lang/ruby27
-lang/ruby31
+#lang/ruby27
+lang/ruby33
 devel/rubygem-rake
 devel/rubygem-minitest
 ##
@@ -132,12 +132,12 @@ textproc/jq
 ##
 ## Server Suite
 ##
-net/samba412
+net/samba419
 www/apache24
-www/mod_php74
+www/mod_php82
 www/nginx
-databases/mysql57-server
-www/mediawiki137
+databases/mysql80-server
+www/mediawiki141
 #
 # Desktop Application
 #
